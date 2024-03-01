@@ -113,13 +113,9 @@ alias e="exit"
 alias tl="tmux ls"
 alias tn="(){tmux new -s $1}"
 alias ta="(){tmux a -t $1}"
-alias ls="colorls -1 --gs"
-alias ls-la="colorls -A -1 --gs"
+alias ls="eza -1 --hyperlink --icons"
+alias ls-la="eza -l -a --icons --hyperlink --git-repos"
 alias ports="sudo lsof -PiTCP -sTCP:LISTEN"
-
-source $(dirname $(gem which colorls))/tab_complete.sh
-source $HOME/miniconda3/bin/activate
-
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
