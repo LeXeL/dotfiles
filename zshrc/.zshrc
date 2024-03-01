@@ -114,7 +114,7 @@ alias tl="tmux ls"
 alias tn="(){tmux new -s $1}"
 alias ta="(){tmux a -t $1}"
 alias ls="eza -1 --hyperlink --icons"
-alias ls-la="eza -l -a --icons --hyperlink --git-repos"
+alias lsa="eza -l -a --git-repos --hyperlink --header --icons --no-user -o"
 alias ports="sudo lsof -PiTCP -sTCP:LISTEN"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
