@@ -1,0 +1,4 @@
+alt-tab	
+hiddenbar
+keepingyouawake	
+rectangle

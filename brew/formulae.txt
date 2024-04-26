@@ -1,0 +1,8 @@
+ca-certificates
+gh
+libssh2
+powerlevel10k
+eza
+libgit2
+openssl@3
+zsh-syntax-highlighting
