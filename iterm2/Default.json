@@ -60,7 +60,7 @@
     "Red Component" : 0.80392156862745101,
     "Color Space" : "sRGB",
     "Blue Component" : 0.95686274509803926,
-    "Alpha Component" : 0.070000000000000007,
+    "Alpha Component" : 0.070000000000000034,
     "Green Component" : 0.83921568627450982
   },
   "BM Growl" : true,
@@ -95,14 +95,13 @@
   "Custom Command" : "No",
   "Title Components" : 3,
   "Keyboard Map" : {
-    "0xf703-0x280000-0x7c" : {
-      "Label" : "",
-      "Action" : 10,
-      "Text" : "F"
-    },
     "0xf728-0x80000" : {
       "Action" : 10,
       "Text" : "d"
+    },
+    "0xf702-0x280000" : {
+      "Action" : 10,
+      "Text" : "b"
     },
     "0xf70d-0x20000" : {
       "Action" : 10,
@@ -111,21 +110,6 @@
     "0x7f-0x80000" : {
       "Action" : 11,
       "Text" : "0x1b 0x7f"
-    },
-    "0xf703-0x300000-0x7c" : {
-      "Label" : "",
-      "Action" : 30,
-      "Text" : ""
-    },
-    "0x64-0x80000-0x2" : {
-      "Label" : "",
-      "Action" : 10,
-      "Text" : "D"
-    },
-    "0xf702-0x240000-0x0" : {
-      "Label" : "",
-      "Action" : 10,
-      "Text" : "[1;5D"
     },
     "0xf708-0x20000" : {
       "Action" : 10,
@@ -179,6 +163,14 @@
       "Action" : 10,
       "Text" : "[1;6A"
     },
+    "0xf702-0x240000" : {
+      "Action" : 10,
+      "Text" : "[1;5D"
+    },
+    "0xf703-0x300000" : {
+      "Action" : 11,
+      "Text" : "0x5"
+    },
     "0x37-0x40000" : {
       "Action" : 11,
       "Text" : "0x1f"
@@ -191,9 +183,9 @@
       "Action" : 10,
       "Text" : "[1;5B"
     },
-    "0xf70b-0x20000" : {
-      "Action" : 10,
-      "Text" : "[19;2~"
+    "0xf702-0x300000" : {
+      "Action" : 11,
+      "Text" : "0x1"
     },
     "0xf703-0x220000" : {
       "Action" : 10,
@@ -202,6 +194,10 @@
     "0xf739-0x0" : {
       "Action" : 13,
       "Text" : ""
+    },
+    "0xf70b-0x20000" : {
+      "Action" : 10,
+      "Text" : "[19;2~"
     },
     "0xf728-0x0" : {
       "Action" : 11,
@@ -231,11 +227,6 @@
       "Action" : 10,
       "Text" : "[1;2B"
     },
-    "0xf702-0x280000-0x7b" : {
-      "Label" : "",
-      "Action" : 10,
-      "Text" : "B"
-    },
     "0xf70a-0x20000" : {
       "Action" : 10,
       "Text" : "[18;2~"
@@ -247,11 +238,6 @@
     "0xf72b-0x20000" : {
       "Action" : 10,
       "Text" : "[1;2F"
-    },
-    "0xf700-0x300000-0x7e" : {
-      "Label" : "",
-      "Action" : 62,
-      "Text" : ""
     },
     "0xf700-0x220000" : {
       "Action" : 10,
@@ -281,18 +267,13 @@
       "Action" : 12,
       "Text" : "4"
     },
-    "0xf702-0x300000-0x7b" : {
-      "Label" : "",
-      "Action" : 31,
-      "Text" : ""
+    "0x32-0x200000" : {
+      "Action" : 12,
+      "Text" : "2"
     },
     "0x35-0x200000" : {
       "Action" : 12,
       "Text" : "5"
-    },
-    "0x32-0x200000" : {
-      "Action" : 12,
-      "Text" : "2"
     },
     "0x36-0x200000" : {
       "Action" : 12,
@@ -353,6 +334,10 @@
     "0x34-0x40000" : {
       "Action" : 11,
       "Text" : "0x1c"
+    },
+    "0xf703-0x280000" : {
+      "Action" : 10,
+      "Text" : "f"
     }
   },
   "Ansi 14 Color" : {
@@ -450,7 +435,7 @@
     "Green Component" : 0.27843137254901962
   },
   "Blur" : true,
-  "Normal Font" : "FiraCodeNFM-Reg 18",
+  "Normal Font" : "FiraCodeNFM-Reg 16",
   "Vertical Spacing" : 1,
   "Ansi 7 Color" : {
     "Red Component" : 0.72941176470588232,
@@ -480,7 +465,7 @@
     "Alpha Component" : 1,
     "Green Component" : 0.88627450980392153
   },
-  "Transparency" : 0.055507007087628867,
+  "Transparency" : 0.099410607902123541,
   "Background Color" : {
     "Red Component" : 0.11764705882352941,
     "Color Space" : "sRGB",
