@@ -6,3 +6,4 @@ eza
 libgit2
 openssl@3
 zsh-syntax-highlighting
+zsh-autosuggestions
